@@ -9,3 +9,4 @@
 - use map method && return simple part of ui
 - send props and receive in different component
 - onClick event with function call && send parameter same time
+- also check odd even number from a card.
