@@ -1,0 +1,35 @@
+.couterContainer {
+  color: #333;
+  width: 400px;
+  margin: 50px auto;
+  height: 350px;
+  text-align: center;
+  border: 2px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.countShow {
+  margin-bottom: 10px;
+  font-size: 2rem;
+  font-family: monospace;
+}
+
+.btnContainer button {
+  padding: 10px 14px;
+  margin: 0 5px;
+  border: #ddd;
+  cursor: pointer;
+  transition: all linear 0.2s;
+}
+.btnContainer button:last-child {
+  padding: 7px 20px;
+}
+
+.btnContainer button:hover {
+  background: rgb(113, 113, 113);
+  color: #fff;
+  border-radius: 3px;
+}
